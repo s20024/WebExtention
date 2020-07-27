@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "ja">
+<head>
+	<meta charset = "utf-8">
+	<meta name="description" content="ITカレッジ沖縄 Web Extention s20024の自己紹介をします。">
+	<title>自己紹介 屋良祐利</title>
+</head>
+<body>
+	<article>
+	<h1>s20024 屋良祐利の自己紹介!</h1>
+
+	<section>
+	<p>名前は<strong>「屋良祐利」</strong>とかいて<strong>「やらゆうと」</strong>とよみます。</p>
+	<p>出身地は、沖縄県うるま市です。</p>
+	<p>出身校は、与勝高校です。</p>
+	</section>
+	<section>
+		<h2>趣味・好きなもの</h2>
+		<ul>
+			<li><b>趣味</b>
+				<ol>
+					<li>ドライブ</li>
+					<li>散歩</li>
+					<li>夜景巡り</li>
+				</ol>
+				<img src="ayahasi.jpg" alt="散歩の写真" title="あやはし" width="15%" height="15%"><img src="akemiti.jpg" alt="夜景の写真" title="明道公園" width="20%" height="20%"><img src="hamahiga.jpg" alt="ドライブの写真" title="浜比嘉島" width="20%" height="20%">
+			</li>
+			<li><b>好きなもの</b>
+				<ol>
+					<li><a href="https://www.snoopy.co.jp/">スヌーピー</a></li>
+					<li><a href="http://www.capcom.co.jp/game/monsterhunter/">モンスターハンター</a></li>
+					<li><a href="https://www.shonenjump.com/j/rensai/naruto.html">ナルト</a></li>
+				</ol>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<h2>ITカレッジ沖縄に入学した理由</h2>
+		<p>去年大学受験で失敗して浪人生活を送っていた中、<br>
+		もともと興味があったITの勉強してみたいと思ったから。
+		</p>
+	</section>
+	</article>
+</body>
+</html>
+
