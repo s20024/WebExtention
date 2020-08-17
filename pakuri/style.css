@@ -1,0 +1,344 @@
+@charset “utf-8”;
+
+body {
+    width:1000px;
+    margin-right: auto;
+    margin-left : auto;
+}
+div.intoro {
+    width: 1000px;
+    margin-right: auto;
+    margin-left : auto;
+    font-size: 13px;
+    text-align: center;
+    padding: 15px;
+}
+
+div.intoro img {
+    float: left;
+}
+
+div.toiawase {
+    float: right;
+    font-size: 13px;
+}
+
+.intoro table a {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(59, 97, 177);
+    color: #fff;
+    border-radius: 7px;
+}
+.intoro a:hover {
+    background-color: rgb(119, 212, 255);
+}
+.denwa {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(236, 227, 102);
+    color: #fff;
+    border-radius: 7px;
+}
+
+
+div.intoro.toiawase {
+    float: right;
+}
+
+ol {
+    width: 1000px;
+    overflow: hidden;
+}
+ 
+li {
+    font-size: 10px;
+    float: left;
+    width: 140px;
+    list-style-type: none;
+}
+ 
+.global a {
+    display: block;
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(255, 81, 0);
+    color: #fff;
+    
+}
+ 
+.global a:hover {
+    background-color: rgb(199, 85, 33);
+}
+
+.photo-show { 
+    float: left;
+    height: 310px; /*表示したい大きさ*/
+    margin: 30px auto; /*縦余白30pxは任意*/
+    max-width: 100%;
+    position: relative;
+    width: 700px; /*表示したい大きさ、height と合わせる*/
+}
+
+.photo-show img { 
+    animation: show 15s infinite;
+    -webkit-animation: show 15s infinite;
+    height: auto;
+    max-width: 100%;
+    opacity: 0;
+    position: absolute; /*画像を全て重ねる*/
+}
+
+@keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    30% {opacity:1}
+    40% {opacity:0}
+ }
+
+@-webkit-keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    30% {opacity:1}
+    40% {opacity:0}
+}
+
+.photo-show img:nth-of-type(1) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.photo-show img:nth-of-type(2) {
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+
+.photo-show img:nth-of-type(3) {
+    animation-delay: 10s;
+    -webkit-animation-delay: 10s;
+}
+
+.photo-show img {
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+}
+
+.photo-show:hover img {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
+.o-kyan {
+    width: 210px;
+    color: black;
+    margin: 10px;
+    border: 15px solid rgb(255, 81, 0);
+    float: right;
+    font-size: 14px;
+    
+}
+
+.o-kyan table{
+    border-collapse: collapse;
+    
+}
+
+.o-kyan th {
+    line-height: 0.5;
+    border-top: 1px solid #707577;
+}
+
+.o-kyan strong {
+    line-height: 1;
+    font-size: 18px;
+    color: rgb(255, 81, 0);
+}
+
+.o-kyan h3 {
+    
+    font-size: 26px;
+}
+.o-kyan b {
+    
+    font-size: 20px;
+    color: blue;
+}
+
+.o-kyan a:hover {
+    background-color: rgb(107, 102, 100);
+}
+
+.o-kyanimg {
+    margin: 20px;
+    float: right;
+}
+
+.gakkasyoukai b {
+    float: left;
+    font-size: 17px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+}
+
+.gakka th {
+    padding: 5px;
+    padding-bottom: 20px;
+    width: 220px;
+    height: 143px;
+}
+
+.gakka img {
+    width: 220px;
+    height: 143px;
+}
+
+.gakka b {
+    font-size: 12px;
+    color: rgb(255, 81, 0);
+}
+
+.gakka {
+    font-size: 10px;
+    text-align: left;
+    float: left;
+}
+
+.houmonsya {
+    margin: 20px;
+    margin-right: 20px;
+    float: right;
+    text-align: left;
+    font-size: 16px;
+    border: 12px solid rgb(156, 151, 148);
+}
+
+.houmonsya td {
+    padding: 4px;
+    color: white;
+    background-color: rgb(255, 81, 0);
+}
+
+.houmonsya th {
+    padding: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 200px;
+    border-bottom: 1px solid #707577;
+}
+
+.houmonsya table {
+    border-collapse: collapse;
+}
+
+.top {
+    float: left;
+    padding: 10px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    border-radius: 4px;
+}
+
+.gakkahead {
+    margin-top: 30px;
+    float: left;
+}
+
+.gakkahead table td {
+    float: left;
+    text-align: left;
+    background-color: blue;
+    color: white;
+    height: 160px;
+    padding-right: 60px;
+}
+
+.gakkahead b {
+    font-size: 20px;
+}
+
+.gakkahead h4 {
+    font-size: 12px;
+}
+
+.gakkahead strong {
+    padding: 3px;
+    background-color: white;
+    color: gray;
+    font-size: 14px;
+}
+
+.setumei {
+    width: 630px;
+    float: left;
+    font-size: 12px;
+}
+
+.setumei h3 {
+    font-size: 20px;
+    color: blue;
+}
+
+.syoku {
+    margin: 10px;
+    width: 250px;
+    float: left;
+    border: 1px solid blue;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.syoku b {
+    padding: 2px;
+    color: white;
+    background-color: blue;
+}
+
+.syoku li {
+    padding-left: 0px;
+    font-size: 11px;
+}
+
+.osusume {
+    float: left;
+    margin: 10px;
+    width: 400px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.osusume b {
+    float: left;
+    padding: 2px;
+    color: white;
+    background-color: blue;
+}
+
+.osusume li {
+    padding-left: 0px;
+    font-size: 11px;
+}
+
+.tukareta {
+    width: 680px;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+}
+
+.tukareta img {
+    width: 330px;
+    height: 220px;
+}
+
+a:active {
+    color: yellow;
+}
