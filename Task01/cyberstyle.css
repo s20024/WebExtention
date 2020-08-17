@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+body {
+    background-position: center top;
+    background-image: url(cyberbg.png);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    opacity: 0.5;
+}
+
+.logo {
+    float: left;
+    width: 40%;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.logo img {
+    padding-left: 150px;
+}
+
+.jobs {
+    width: 17%;
+    float: left;
+    font-weight: 100;
+    padding: 10px;
+    padding-left: 0px;
+    margin: 20px;
+    border: violet solid 2px;
+    border-radius: 8px;
+}
+
+.jobs b {
+    padding: 10px;
+    background-color: violet;
+    border-radius: 6px;
+    color: white;
+}
+
+.jobs li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cyber {
+    width: 60%;
+    float: right;
+    padding-top: 50px;
+}
+
+.cyber b {
+    margin-left: 70%;
+    text-align: center;
+    padding: 8px;
+    background-color: blueviolet;
+    border-radius: 6px;
+    color: white;
+}
+
+.cyber img {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+
+.it {
+    width: 60%;
+    float: right;
+    padding-top: 50px;
+}
+
+.it b {
+    margin-left: 70%;
+    text-align: center;
+    padding: 8px;
+    background-color: greenyellow;
+    border-radius: 6px;
+    color: white;
+}
+
+.it img {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+
+.game {
+    width: 60%;
+    float: right;
+    padding-top: 50px;
+}
+
+.game b {
+    margin-left: 70%;
+    text-align: center;
+    padding: 8px;
+    background-color: skyblue;
+    border-radius: 6px;
+    color: white;
+}
+
+.game img {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+
+.night {
+    width: 60%;
+    float: right;
+    padding-top: 50px;
+}
+
+.night b {
+    margin-left: 70%;
+    padding: 8px;
+    background-color: gray;
+    border-radius: 6px;
+    color: white;
+}
+
+.night img {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+
+.distribute {
+    margin: 2%;
+    margin-top: 5%;
+    float: left;
+    width: 35%;
+}
+
+.distribute b {
+    padding: 4px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+.distribute h2 {
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: violet;
+}
+
+.distribute img {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+
+.content {
+    width: 16%;
+    margin: 1%;
+    float: left;
+    background-color: white;
+    border-radius: 5%;
+    border: violet solid 2px;
+    line-height: 1.3;
+}
+
+.content img {
+    padding: 5%;
+    width: 90%;
+    height: 90%;
+    background-color: violet;
+    border-radius: 5%;
+}
+
+.curriculum {
+    width: 17%;
+    float: left;
+    font-weight: 100;
+    padding: 10px;
+    padding-left: 0px;
+    margin: 20px;
+    margin-left: 10%;
+    border: violet solid 2px;
+    border-radius: 8px;
+}
+
+.curriculum b {
+    padding: 10px;
+    background-color: violet;
+    border-radius: 6px;
+    color: white;
+}
+
+.curriculum li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.name {
+    width: 60%;
+    float: right;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.name h1 {
+    color: blueviolet;
+    font-size: 35px;
+}
+
+.name section {
+    color: violet;
+    font-size: 25px;
+}
