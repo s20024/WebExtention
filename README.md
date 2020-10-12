@@ -13,4 +13,6 @@
 9. chapter09[[ボックスと情報の整理](chapter09)]
 10. chapter10[[テーブル](chapter10/ch10-table.html)]
 
+1. Task[[task](Task01/index.html)]
+
 
