@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>フレックスボックスを使ったコラムレイアウト</title>
+  <title>ナヴィゲーションメニューを作成する</title>
   <link rel="stylesheet" href="nnormalize.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -11,13 +11,19 @@
   <header>
     <div class="container">
       <div class="header-inner">
-        <div class="logo">Header</div>
+        <button class="hamburger" id="mobile-menu"></button>
       </div>
     </div>
   </header>
   <nav>
     <div class="container">
-      <div class="nav-inner">ホーム　会社案内　製品案内　サポート　お問い合わせ</div>
+      <ul class="navbar">
+        <li><a href="#">ホーム</a></li>
+        <li><a href="#">会社案内</a></li>
+        <li><a href="#">製品案内</a></li>
+        <li><a href="#">サポート</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
     </div>
   </nav>
   <section>
@@ -27,13 +33,9 @@
           <p class="main-title">Main</p>
         </div>
       </main>
-      <aside class="sidebar sidebar1">
+      <aside class="sidebar">
         <!--サイドバー1の要素-->
-        sidebar1
-      </aside>
-      <aside class="sidebar sidebar2">
-        <!--サイドバー2の要素-->
-        sidebar2
+        sidebar
       </aside>
     </div>
   </section>
@@ -44,5 +46,6 @@
       </div>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
