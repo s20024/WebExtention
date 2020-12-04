@@ -2,13 +2,15 @@
 
 body{
     margin: 0;
-    color: #444;
-
 }
-main p:last-child{
-    margin-bottom: 0;
+.container{
+    margin: 0 auto 0 auto;
+    max-width: 1000px;
 }
-
+section .container{
+    display: flex;
+    flex-flow: column;
+}
 .header-inner{
     background: #bad7f5;
     padding: 10px 10px 0 10px;
@@ -18,12 +20,12 @@ main p:last-child{
     background: #0089f9;
     padding: 10px 10px 0 10px;
 }
-.main-inner{
+main{
     background: #fffde3;
     height: 400px;
     padding: 20px 10px;
 }
-.sidebar-inner{
+.sidebar{
     background: #c0f5b9;
     padding: 20px 10px;
 }
@@ -31,21 +33,30 @@ main p:last-child{
     background: #bad7f5;
     padding: 20px 16px 10px 16px;
 }
+@media only screen and (min-width:768px) {
+    section .container{
+        flex-flow: row;
+    }
+    main{
+        flex: 1 1 auto;
+        order: 2;
+    }
+    .sidebar{
+        flex: 0 0 340px;
+        order: 1;
+    }
+}
 
+main p:last-child{
+    margin-bottom: 0;
+}
 .main-title {
     margin: 0;
 }
 .copyright{
     margin: 0;
 }
-.container{
-    padding: 0 16px;
-    margin: 0 auto 0 auto;
-    max-width: 1000px;
-}
 nav{
-    margin-bottom: 20px;
 }
 footer{
-    margin-top: 20px;
 }
